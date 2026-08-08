@@ -1,7 +1,9 @@
-#include<iostream>
-using namespace std;
-int main(){
-    int a=5 , b=6;
-    sum = a+b;
-    cout<<sum;
-}
+// #include<iostream>
+// using namespace std;
+
+// int main(){
+//     int a=5 , b=6, sum;
+//     sum = a+b;
+//     cout<<sum;
+// }
+
