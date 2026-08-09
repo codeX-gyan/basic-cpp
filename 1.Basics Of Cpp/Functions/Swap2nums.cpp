@@ -15,14 +15,14 @@
 
 
 
-//---- WAP EITHOUT THIRD VARIABLE----
+//----SWAP EITHOUT THIRD VARIABLE----
 
 #include<iostream>
 using namespace std;
 int main() {
-    int temp;
-    int a=5;
-    int b=7;
+    // int temp;
+    int a=675;
+    int b=827;
     a = a+b;
     b = a-b;
     a = a-b;
