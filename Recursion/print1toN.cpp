@@ -22,10 +22,11 @@
 
 #include<iostream>
 using namespace std;
-void print(int n , int x) {
-    if(n>x) return;
+void print(int n) {
+    if(n==0) return;
+    print(n-1);
     cout<<n<<endl;
-    print(n+1 , x);
+    
 }
 
 int main() {
@@ -33,5 +34,5 @@ int main() {
     cout<<"enter a number : ";
     cin>>x;
 
-    print(1,x);
+    print(x);
 }
