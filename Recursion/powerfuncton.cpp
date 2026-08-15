@@ -14,4 +14,5 @@ int main() {
     cin>>b;
 
     cout<<pow(a,b);
+    return 0;
 }
