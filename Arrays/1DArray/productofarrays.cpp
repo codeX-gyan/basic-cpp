@@ -3,11 +3,10 @@ using namespace std;
 int main() {
     int arr[] = {6,5,7,4,8};
     cout<<sizeof (arr)/4<<endl;
-    int sum=0;
+    int prod=1;
 
     for(int i = 0 ; i<=4 ; i++) {
-        sum += arr[i];
+        prod *= arr[i];
     }
-    cout<<sum;
+    cout<<prod;
 }
-
