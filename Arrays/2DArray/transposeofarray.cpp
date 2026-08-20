@@ -10,8 +10,8 @@ int main() {
     arr[1][1] = 6;
     arr[1][2] = 7;
 
-    for(int i =0 ; i<2 ; i++){         //ROW
-        for(int j =0 ; j<3 ; j++){     //COL
+    for(int j =0 ; j<3 ; j++){         //COL
+        for(int i=0 ; i<2 ; i++){     //ROW
             cout<<arr[i][j]<<" ";
             
         }
