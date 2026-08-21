@@ -7,3 +7,5 @@ int main() {
     s = s + " prakash";
     cout<<s<<" "<<s.length();
 }
+
+
