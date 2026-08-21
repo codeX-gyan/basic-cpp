@@ -3,5 +3,7 @@ using namespace std;
 int main() {
     string s = "bro!! fucked up ho gya hu";
     cout<<s[7];
-    s[7] = S;
+    cout<<endl;
+    s[6] = 'S';
+    cout<<s;
 }
